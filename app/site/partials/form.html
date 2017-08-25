@@ -14,7 +14,7 @@
 					required>
 					</li>
 					<li id='err-li'>
-						<div ng-show='contactFrm.txtEmail.$dirty' ng-messages='contactFrm.txtEmail.$error' ng-messages-multiple>
+						<div ng-show='contactFrm.txtEmail.$dirty && blurred' ng-messages='contactFrm.txtEmail.$error' ng-messages-multiple>
 							<div ng-message='email' class="err-msg" >This field must be a valid email address.
 							</div>
 							<div class='err-msg' ng-message='required'>

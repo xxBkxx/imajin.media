@@ -12,7 +12,7 @@ app.use('/', message_routes);
 
 var mongoose = require('mongoose');
 
-var PORT  = 8080;
+var PORT  = 3000;
 app.use(express.static(__dirname + './../app', {redirect: true}));
 
 console.log(__dirname);

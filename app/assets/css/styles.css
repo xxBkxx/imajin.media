@@ -8,7 +8,7 @@ body{
 	width: 74px;
 	height: 74px;
 	left: calc(50% - 0px);
-	top: 429px;
+	top: 438px;
 }
 .content-container{
 	width: 100%;
@@ -178,7 +178,7 @@ body{
 	background-color: #500000;
 	border: none;
 	border-radius: 6px;
-	width: 339px;
+	width: 329px;
 	height: 250px;
 	/*color:#ff0000;*/
 	resize: none;

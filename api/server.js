@@ -3,6 +3,7 @@ var app     = express();
 var path    = require('path');
 var http    = require('http');
 var https   = require('https');
+var fs 		= require('fs');
 var message_routes = require('./routes/message.routes');
 
 // var message 	   = require('./models/message');
@@ -34,9 +35,7 @@ const OPTIONS = {
 	cert: fs.readFileSync('blast.crt')
 };
 
-var secureConn = https.createServer(OPTIONS, app).listen(8443)
-
-
+var secureConn = https.createServer(OPTIONS, app).listen(8443);
 
 mongoose.connect('mongodb://localhost/data/db/');
 

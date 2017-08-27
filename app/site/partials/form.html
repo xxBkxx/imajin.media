@@ -9,7 +9,7 @@
 					type="email" 
 					name='txtEmail' 
 					class="email-input" 
-					placeholder="email" 
+					placeholder="your email" 
 					ng-model='ctrl.email'
 					required>
 					</li>
@@ -22,7 +22,7 @@
 							</div>
 						</div>
 					</li>
-					<li><textarea class='email-txta' placeholder="message" ng-model='ctrl.message'></textarea> 
+					<li><textarea class='email-txta' placeholder="leave a message" ng-model='ctrl.message'></textarea> 
 					</li>
 					<li ><img class="loader" src="assets/img/loading.gif"><button ng-disabled='contactFrm.$invalid  === true' ng-click="ctrl.sendEmail()" class='frm-button' ng-class="{'disabled-class':contactFrm.$invalid}">send</button></li>
 				</ul>

@@ -37,7 +37,7 @@ const OPTIONS = {
 
 // var secureConn = https.createServer(app).listen(443);
 
-mongoose.connect('mongodb://ec2-52-38-131-176.us-west-2.compute.amazonaws.com/data/db');
+mongoose.connect('mongodb://ec2-52-38-131-176.us-west-2.compute.amazonaws.com:27017/data/db');
 // mongoose.connect('mongodb://localhost:27017/data/db/');
 
 var db = mongoose.connection;

@@ -28,7 +28,7 @@ app.use('*', function(req,res,next){
 })
 
 
-var insecureConn = http.createServer(app).listen(3000);
+//var insecureConn = http.createServer(app).listen(3000);
 
 const OPTIONS = {
 	key:  fs.readFileSync('blast.key'),

@@ -32,14 +32,39 @@ body{
 	letter-spacing: -.075em;
 }
 .logo{
+	font-family: anton, sans-serif;
+	font-size: 130px;
 	display: block;
+	color:#500000;
 	height: 88px;
-	margin-bottom: 30px;
-	background-image: url('../img/imajin-logo.png');
-	background-repeat: no-repeat;
+	padding-bottom: 44px;
+/*	animation: glow 3000ms linear infinite;*/
 }
 
+.logo:focus{
+
+	color:#ff0000;
+	-webkit-transition-duration: 0.4s; 
+	-moz-transition-duration:0.4s;
+	transition-duration: 0.4s;
+}
 .logo:hover{
+
+	color:#ff0000;
+	-webkit-transition-duration: 0.4s; 
+	-moz-transition-duration:0.4s;
+    transition-duration: 0.4s;
+    border:none;
+}
+
+
+/*@keyframes glow {
+    40% {
+      color: #f00;
+    }
+  }*/
+
+/*.logo:hover{
 	background-image: url('../img/imajin-logo-red.png');
 	-webkit-transition-duration: 0.4s; 
 	-moz-transition-duration:0.4s;
@@ -49,7 +74,7 @@ body{
 	-webkit-transition-duration: 0.4s; 
 	-moz-transition-duration:0.4s;
 	transition-duration: 0.4s;
-}
+}*/
 
 .contact-img{
 	display: block;
